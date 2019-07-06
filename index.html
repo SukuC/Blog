@@ -11,6 +11,8 @@
     <!-- Place all CSS for fonts in this file -->
     <link href='css/font.css' rel='stylesheet' type='text/css'>
 
+    <!--    Poppins Font Import From GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="main-container-div">
@@ -22,8 +24,8 @@
             <span class="logo--info">Explore, Imagine, Create</span>
         </div>
         <div class="menu">
-            <input class="menu__button" type="button" value="Sign In">
-            <input class="menu__button" type="button" value="Sign Up">
+            <input id="signInButton" class="menu__button" type="button" value="Sign In">
+            <input id="signUpButton" class="menu__button" type="button" value="Sign Up">
         </div>
     </div>
 
@@ -31,8 +33,41 @@
 
         <!-- Insert code for All Posts & Create Post button here -->
 
-        <input class="postButtons--button" type="button" value="All Posts">
-        <input class="postButtons--button" type="button" value="Create Post">
+        <div class="postButtons--container">
+            <input id="allPost" class="postButtons--button" type="button" value="All Posts">
+            <input id="createPost" class="postButtons--button" type="button" value="Create Post">
+        </div>
+
+        <div id="modal-container">
+
+            <div id="signUp--modal">
+                <span id="signUp-close" class="close">&times;</span>
+                <div class="container">
+                    <h2 class="allPost--title">Get Started</h2>
+                    <hr class="divider">
+                    <label>Full Name
+                        <input class="signUp-input" type="text" placeholder="Enter Full Name">
+                    </label>
+                    <label>Username
+                        <input  class="signUp-input" type="text" placeholder="Enter Username">
+                    </label>
+                    <label>Password
+                        <input  class="signUp-input" type="text" placeholder="Enter Password">
+                    </label>
+                    <label>Confirm Password
+                        <input  class="signUp-input" type="text" placeholder="Confirm Password">
+                    </label>
+                    <input id="signUp-submit" type="submit">
+                </div>
+            </div>
+
+            <div id="signIn--modal">
+                <span id="signIn-close" class="close">&times;</span>
+                <p>Get Started</p>
+            </div>
+
+        </div>
+
 
     </div>
 </div>
