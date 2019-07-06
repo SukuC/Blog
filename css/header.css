@@ -1,14 +1,42 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
-
-.header{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: end;
-    background-color: red;
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
 }
 
-.header__button{
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: end;
+    padding: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    font-family: 'Satisfy', cursive;
+    color: #112fb4;
+    font-size: 5rem;
+}
+
+.logo--info {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.6rem;
+}
+
+.menu__button {
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    background-color: #0000ff;
+    color: #fff;
+    width: 10rem;
 }
