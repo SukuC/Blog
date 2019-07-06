@@ -49,6 +49,17 @@
     align-self: flex-end;
 }
 
+#saveButton {
+    background: deeppink;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1.5rem 4rem;
+    box-shadow: hotpink 0rem 1.5rem 1rem -1rem;
+    color: #ffffff;
+    align-self: flex-end;
+    display: none;
+}
+
 .blogText {
     margin-left: 7rem;
     margin-right: 7rem;
@@ -99,4 +110,30 @@
     color: #ffffff;
     margin-left: 7rem;
     margin-top: 4rem;
+}
+#allCommnets{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Poppins,sans-serif;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+
+#commentHolder{
+    background: gray;
+    height: auto;
+    width: 93%;
+    margin-left: 7rem;
+    margin-bottom: 7rem;
+    padding: 2rem;
+
+}
+
+.comment{
+    padding: 2rem;
+    background-color: #ffffff;
+}
+.comment > p{
+    font-size: 2rem;
+    font-family: Poppins,sans-serif;
 }
