@@ -42,30 +42,30 @@
                         <input required class="signUp-input" type="text" placeholder="Enter Username">
                     </label>
                     <label>Password
-                        <input required class="signUp-input" type="text" placeholder="Enter Password">
+                        <input required class="signUp-input" type="password" placeholder="Enter Password">
                     </label>
                     <label>Confirm Password
-                        <input required class="signUp-input" type="text" placeholder="Confirm Password">
+                        <input required class="signUp-input" type="password" placeholder="Confirm Password">
                     </label>
-                    <input class="signUp-submit" type="submit">
+                    <input class="signUp-submit" type="submit" value="Sign Up">
                 </form>
             </div>
 
             <div id="signIn--modal">
                 <span id="signIn-close" class="close">&times;</span>
                 <form action="" class="container">
-                    <h2 class="allPost--title">Welcome Back!</h2>
+                    <h2 class="allPost--title">Create a Post</h2>
                     <hr class="divider">
 
                     <label>Username
                         <input required class="signUp-input" type="text" placeholder="Enter Username">
                     </label>
                     <label>Password
-                        <input required class="signUp-input" type="text" placeholder="Enter Password">
+                        <input required class="signUp-input" type="password" placeholder="Enter Password">
                     </label>
 
-                    <input class="signUp-submit" type="submit">
-                    <p class="message">Note a member? <a id="signUp">Sign Up</a></p>
+                    <input class="signUp-submit" type="submit" value="Sign In">
+                    <p class="message">Not a member? <a id="signUp">Sign Up</a></p>
                 </form>
             </div>
 
@@ -79,6 +79,24 @@
         <div class="postButtons--container">
             <a href="./html/bloglist.html" id="allPost" class="postButtons--button">All Posts</a>
             <input id="createPost" class="postButtons--button" type="button" value="Create Post">
+        </div>
+
+
+        <div id="post--modal">
+            <span id="post-close" class="close">&times;</span>
+            <form action="" class="container">
+                <h2 class="allPost--title">Create a Post</h2>
+                <hr class="divider">
+
+                <label>Title
+                    <input required class="signUp-input" type="text" placeholder="Enter Post Title">
+                </label>
+                <label>Description
+                    <input required class="signUp-input" type="text" placeholder="Enter Post Description">
+                </label>
+
+                <input class="signUp-submit" type="submit" value="Post" >
+            </form>
         </div>
 
     </div>

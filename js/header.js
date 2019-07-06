@@ -30,6 +30,7 @@ signInClose.onclick = function () {
 signUpClose.onclick = function () {
     area.style.display = "none";
 };
+
 signUp.onclick = function () {
     area.style.display = "block";
     signUpModal.style.display = "flex";

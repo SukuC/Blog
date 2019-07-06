@@ -50,7 +50,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ffffff;
-    height: 75rem;
+    height: 67rem;
     width: 55rem;
     padding-top: 0.8rem;
     justify-content: center;
@@ -93,7 +93,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     /*transform: rotate(90deg);*/
     /*height: 30rem;*/
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -140,7 +140,8 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     height: 5rem;
     padding: 1rem;
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    color: #ffffff;
 }
 
 #signIn--modal {
