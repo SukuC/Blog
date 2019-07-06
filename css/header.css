@@ -39,4 +39,6 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     background-color: #0000ff;
     color: #fff;
     width: 10rem;
+    cursor: pointer;
+
 }

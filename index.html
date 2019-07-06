@@ -42,28 +42,41 @@
 
             <div id="signUp--modal">
                 <span id="signUp-close" class="close">&times;</span>
-                <div class="container">
+                <form action="" class="container">
                     <h2 class="allPost--title">Get Started</h2>
                     <hr class="divider">
                     <label>Full Name
-                        <input class="signUp-input" type="text" placeholder="Enter Full Name">
+                        <input required class="signUp-input" type="text" placeholder="Enter Full Name">
                     </label>
                     <label>Username
-                        <input  class="signUp-input" type="text" placeholder="Enter Username">
+                        <input required  class="signUp-input" type="text" placeholder="Enter Username">
                     </label>
                     <label>Password
-                        <input  class="signUp-input" type="text" placeholder="Enter Password">
+                        <input required class="signUp-input" type="text" placeholder="Enter Password">
                     </label>
                     <label>Confirm Password
-                        <input  class="signUp-input" type="text" placeholder="Confirm Password">
+                        <input required class="signUp-input" type="text" placeholder="Confirm Password">
                     </label>
-                    <input id="signUp-submit" type="submit">
-                </div>
+                    <input class="signUp-submit" type="submit">
+                </form>
             </div>
 
             <div id="signIn--modal">
                 <span id="signIn-close" class="close">&times;</span>
-                <p>Get Started</p>
+                <form action="" class="container">
+                    <h2 class="allPost--title">Welcome Back!</h2>
+                    <hr class="divider">
+
+                    <label>Username
+                        <input required  class="signUp-input" type="text" placeholder="Enter Username">
+                    </label>
+                    <label>Password
+                        <input required class="signUp-input" type="text" placeholder="Enter Password">
+                    </label>
+
+                    <input class="signUp-submit" type="submit">
+                    <p class="message">Note a member? <a id="signUp">Sign Up</a></p>
+                </form>
             </div>
 
         </div>

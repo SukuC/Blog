@@ -38,8 +38,8 @@ body {
     height: 80vh;
     width: 30vw;
     padding-top: 0.8rem;
-    display: flex;
     justify-content: center;
+    display: none;
 }
 
 .close {
@@ -63,6 +63,7 @@ body {
     background-color: rgba(0, 0, 0, 0.61);
     position: absolute;
     top: 0;
+    display: none;
 }
 
 .allPost--title {
@@ -78,7 +79,7 @@ body {
 
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,16 +87,18 @@ body {
     justify-content: center;
 
 }
-.container > label{
+
+.container > label {
     display: flex;
     flex-direction: column;
     font-size: 1.8rem;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     margin-bottom: 1rem;
     width: 100%;
     font-weight: bold;
 }
-.signUp-input{
+
+.signUp-input {
     background-color: #f2f2f2;
     border: none;
     font-size: 1.2rem;
@@ -103,7 +106,7 @@ body {
     padding: 1rem;
 }
 
-.signUp-input:focus{
+.signUp-input:focus {
     background-color: pink;
     outline: none;
     border: none;
@@ -112,7 +115,7 @@ body {
     padding: 1rem;
 }
 
-#signUp-submit{
+.signUp-submit {
     background-color: #4CAF50;
     border: none;
     font-size: 1.2rem;
@@ -120,4 +123,30 @@ body {
     padding: 1rem;
     width: 100%;
     margin-top: 4rem;
+}
+
+#signIn--modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    height: 60vh;
+    width: 30vw;
+    padding-top: 0.8rem;
+    justify-content: center;
+    display: none;
+}
+
+.message {
+    font-size: 1.6rem;
+    font-family: Poppins, sans-serif;
+    margin-top: 2rem;
+}
+
+.message > a {
+    font-size: 1.6rem;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    color: blue;
 }
