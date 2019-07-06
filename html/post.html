@@ -5,6 +5,8 @@
     <link href='../css/header.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
     <link href='../css/font.css' rel='stylesheet' type='text/css'>
+    <!--    Poppins Font Import From GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <style>
     </style>
 </head>
@@ -73,8 +75,9 @@
 <div class="blogAuthor">
 
     <!-- Insert code for Edit/Save button and  -->
-
+    <!--    <button id="saveButton">Save</button>-->
     <p>Jimi</p>
+    <button id="editButton">Edit</button>
 </div>
 
 <div class="blogText">
@@ -102,7 +105,16 @@
 </div>
 
 <!-- Insert code for Like button, Comment button, Comment box here-->
+<button id="likeButton">Like</button>
+<p id="likeStatus">Be the first one to like this!</p>
 
+<textarea id="commentArea" placeholder="Leave a comment..."></textarea>
+<br>
+<button id="commentButton">Comment</button>
+
+<div id="commnetHolder">
+    
+</div>
 <script src="../js/post.js" defer></script>
 <script src="../js/header.js">
 </script>

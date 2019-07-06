@@ -3,17 +3,100 @@
     font-family: 'Abel', sans-serif;
     font-weight: bold;
 }
+
 .blogText {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
 .blogAuthor {
     padding: 0px 0px 0px 10px;
     font-family: 'Niconne', cursive;
     font-size: 30px;
 }
-.blogContent{
 
+.blogContent {
+    display: flex;
+    justify-content: center;
 }
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+
+
+#blogTitleNew {
+    font-size: 3rem;
+}
+
+.blogAuthor {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+}
+
+.blogAuthor > p {
+    font-size: 3.5rem;
+}
+
+#editButton {
+    background: deeppink;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1.5rem 4rem;
+    box-shadow: hotpink 0rem 1.5rem 1rem -1rem;
+    color: #ffffff;
+    align-self: flex-end;
+}
+
+.blogText {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+#blogBody {
+    font-size: 1.94rem;
+}
+
+
+#likeButton {
+    background: deeppink;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    box-shadow: hotpink 0rem 1.5rem 1rem -1rem;
+    color: #ffffff;
+    align-self: flex-end;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+
+#likeStatus {
+    margin-left: 7rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-family: Poppins, sans-serif;
+}
+#commentArea{
+    margin-left: 7rem;
+    margin-top: 4rem;
+    width: 50%;
+    height: 15rem;
+    /*margin-right: 7rem;*/
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+#commentButton {
+    background: deeppink;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    box-shadow: hotpink 0rem 1.5rem 1rem -1rem;
+    color: #ffffff;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
