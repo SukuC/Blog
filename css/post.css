@@ -90,7 +90,8 @@
     letter-spacing: 0.1rem;
     font-family: Poppins, sans-serif;
 }
-#commentArea{
+
+#commentArea {
     margin-left: 7rem;
     margin-top: 4rem;
     width: 50%;
@@ -111,15 +112,16 @@
     margin-left: 7rem;
     margin-top: 4rem;
 }
-#allCommnets{
+
+#allCommnets {
     font-size: 2rem;
     font-weight: bolder;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     margin-left: 7rem;
     margin-top: 4rem;
 }
 
-#commentHolder{
+#commentHolder {
     background: gray;
     height: auto;
     width: 93%;
@@ -129,11 +131,12 @@
 
 }
 
-.comment{
+.comment {
     padding: 2rem;
     background-color: #ffffff;
 }
-.comment > p{
+
+.comment > p {
     font-size: 2rem;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
 }

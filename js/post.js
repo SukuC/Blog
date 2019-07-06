@@ -34,3 +34,13 @@ commentButton.onclick = function () {
     commentHolder.innerHTML = comments;
 };
 
+
+const likeButton = document.getElementById('likeButton');
+const likeStatus = document.getElementById('likeStatus');
+
+let likeCount = 0;
+
+likeButton.onclick = function () {
+    likeCount++;
+    likeStatus.innerHTML = `${likeCount} person likes this!`;
+};
