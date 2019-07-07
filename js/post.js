@@ -28,10 +28,11 @@ const comments = [];
 
 commentButton.onclick = function () {
     const value = commentArea.value;
-
-    const comment = `<div class="comment"><p>${value}</p></div>`;
-    comments.unshift(comment);
-    commentHolder.innerHTML = comments;
+    if (value) {
+        const comment = `<div class="comment"><p>${value}</p></div>`;
+        comments.unshift(comment);
+        commentHolder.innerHTML = comments;
+    }
 };
 
 
