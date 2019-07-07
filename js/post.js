@@ -16,7 +16,7 @@ saveButton.onclick = function () {
     const instantTextArea = document.getElementById('instantTextArea');
     const value = instantTextArea.value;
     if (value) {
-        blogBody.innerHTML = `<p id="blogBody">${value}</p>`
+        blogBody.innerHTML = `${value}`
     }
 };
 
@@ -30,7 +30,7 @@ commentButton.onclick = function () {
     const value = commentArea.value;
 
     const comment = `<div class="comment"><p>${value}</p></div>`;
-    comments.push(comment);
+    comments.unshift(comment);
     commentHolder.innerHTML = comments;
 };
 
@@ -42,5 +42,9 @@ let likeCount = 0;
 
 likeButton.onclick = function () {
     likeCount++;
-    likeStatus.innerHTML = `${likeCount} person likes this!`;
+    if (likeCount === 1) {
+        likeStatus.innerHTML = `${likeCount} person likes this!`;
+    } else {
+        likeStatus.innerHTML = `${likeCount} people liked this!`;
+    }
 };
